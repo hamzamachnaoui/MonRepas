@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MonRepas - Accueil</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">MonRepas</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="text-center">
+            <h1 data-aos="fade-up" data-aos-delay="200">Bienvenue chez MonRepas</h1>
+            <p class="lead" data-aos="fade-up" data-aos-delay="400">Découvrez des plats délicieux dans une ambiance chaleureuse</p>
+            <a href="menu.html" class="btn btn-custom btn-lg" data-aos="zoom-in" data-aos-delay="600">Voir le menu</a>
+        </div>
+    </header>
+
+    <!-- Features -->
+    <section class="features py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-md-4" data-aos="fade-right">
+                    <i class="bi bi-egg-fried fs-1"></i>
+                    <h3>Qualité</h3>
+                    <p>Nos ingrédients sont toujours frais et de première qualité.</p>
+                </div>
+                <div class="col-md-4" data-aos="fade-up">
+                    <i class="bi bi-cup-hot fs-1"></i>
+                    <h3>Ambiance</h3>
+                    <p>Un cadre moderne et chaleureux pour vous accueillir.</p>
+                </div>
+                <div class="col-md-4" data-aos="fade-left">
+                    <i class="bi bi-truck fs-1"></i>
+                    <h3>Livraison</h3>
+                    <p>Service de livraison rapide et fiable pour votre confort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            &copy; 2025 MonRepas. Tous droits réservés.
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
