@@ -1,4 +1,5 @@
-<<<<<<< HEAD
+DEMO Landing page : https://hamzamachnaoui.github.io/MonRepas/index.html
+Demo Multiple Pages : https://hamzamachnaoui.github.io/MonRepas/index2.html
 # MonRepas - Restaurant Website
 
 Bienvenue sur le projet **MonRepas**, un site web moderne conçu pour un restaurant fictif. Ce projet propose deux versions :
@@ -29,6 +30,4 @@ Bienvenue sur le projet **MonRepas**, un site web moderne conçu pour un restaur
    ```bash
    git clone https://github.com/hamzamachnaoui/MonRepas.git
    cd MonRepas
-=======
-# MonRepas
->>>>>>> 6b9331f2c7c55ff322076cd11bb4c1f0e19a8a21
+
