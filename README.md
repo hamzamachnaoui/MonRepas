@@ -1,5 +1,7 @@
 DEMO Landing page : https://hamzamachnaoui.github.io/MonRepas/index.html
+
 Demo Multiple Pages : https://hamzamachnaoui.github.io/MonRepas/index2.html
+
 # MonRepas - Restaurant Website
 
 Bienvenue sur le projet **MonRepas**, un site web moderne conçu pour un restaurant fictif. Ce projet propose deux versions :
